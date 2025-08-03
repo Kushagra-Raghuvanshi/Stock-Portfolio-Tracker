@@ -10,6 +10,10 @@ A simple stock portfolio tracker built with the **MERN stack (MongoDB, Express, 
 
 ---
 
+<img width="493" height="590" alt="Screenshot 2025-08-03 at 5 18 49 PM" src="https://github.com/user-attachments/assets/e7a27a3c-b8c7-4c10-8688-061d9eeb033b" />
+
+---
+
 ## 🚀 Features
 
 - Secure user authentication (JWT + bcrypt)
