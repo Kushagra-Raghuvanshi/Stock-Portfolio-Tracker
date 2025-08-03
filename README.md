@@ -45,7 +45,51 @@ A simple stock portfolio tracker built with the **MERN stack (MongoDB, Express, 
 ```bash
 git clone https://github.com/your-username/stock-portfolio-tracker.git
 cd stock-portfolio-tracker
+```
 
 ### 2️⃣ Setup Backend (Terminal 1)
+
+```bash
+cd server
+npm install
+```
+
+Create a `.env` file inside the `server/` directory with the following content:
+
+```env
+MONGO_URI=mongodb://localhost:27017/stocktracker
+JWT_SECRET=your_jwt_secret_here
+TWELVE_DATA_API_KEY=your_twelve_data_key
+FINNHUB_API_KEY=your_finnhub_api_key_here
+```
+
+Then start the backend server:
+
+```bash
+npm run dev
+```
+
+---
+
+### 3️⃣ Setup Frontend (Terminal 2)
+
+```bash
+cd client
+npm install
+npm start
+```
+
+The React app should now be running at:  
+👉 **http://localhost:3000**
+
+---
+
+## ✨ Usage
+
+- Open **http://localhost:3000** in your browser  
+- Register and log in  
+- Add stocks with symbol, shares, and purchase price  
+- View **live prices**, **gain/loss**, and **price chart** for each stock  
+- Delete stocks from your list anytime
 
 
