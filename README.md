@@ -51,6 +51,12 @@ git clone https://github.com/your-username/stock-portfolio-tracker.git
 cd stock-portfolio-tracker
 ```
 
+### Start MongoDb
+
+```bash
+brew services start mongodb-community
+```
+
 ### 2️⃣ Setup Backend (Terminal 1)
 
 ```bash
