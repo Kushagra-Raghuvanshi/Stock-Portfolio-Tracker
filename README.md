@@ -76,7 +76,7 @@ FINNHUB_API_KEY=your_finnhub_api_key_here
 Then start the backend server:
 
 ```bash
-npm run dev
+npx nodemon server.js
 ```
 
 ---
