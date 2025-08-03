@@ -36,7 +36,7 @@ A simple stock portfolio tracker built with the **MERN stack (MongoDB, Express, 
 
 - Node.js and npm installed
 - MongoDB running locally (e.g. `mongodb://localhost:27017/stocktracker`)
-- Finnhub API Key (free tier)
+- Finnhub and Tweleve Data API Key (free tiers available for both)
 
 ---
 
