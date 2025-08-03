@@ -16,7 +16,7 @@ A simple stock portfolio tracker built with the **MERN stack (MongoDB, Express, 
 - Add/remove stocks with number of shares and purchase price
 - Fetch live stock prices via **Finnhub API**
 - Display real-time gain/loss for each stock
-- Plot stock price history (last 30 days) via chart
+- Plot stock price history (last 5 days) via chart using **Twelve Data API**
 - Responsive UI styled with **Tailwind CSS**
 
 ---
@@ -45,3 +45,7 @@ A simple stock portfolio tracker built with the **MERN stack (MongoDB, Express, 
 ```bash
 git clone https://github.com/your-username/stock-portfolio-tracker.git
 cd stock-portfolio-tracker
+
+### 2️⃣ Setup Backend (Terminal 1)
+
+
