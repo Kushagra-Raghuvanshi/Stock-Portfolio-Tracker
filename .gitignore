@@ -1,0 +1,24 @@
+# Ignore node_modules in both frontend and backend
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Ignore environment files with sensitive data
+client/.env
+server/.env
+
+# OS-specific junk files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Build output
+client/build/
+server/dist/
+
+# Other
+.env
+*.env.local
